@@ -41,7 +41,7 @@ body {
 
 .navlogo {
   margin: auto 0;
-  height: 50px;
+  width: 220px;
 }
 
 /* Header */
@@ -156,7 +156,7 @@ body {
 
 .marquee-content {
   display: inline-block;
-  animation: marquee 360s linear infinite;
+  animation: marquee 60s linear infinite;
 }
 
 .marquee-content img {
@@ -240,12 +240,14 @@ body {
   border-radius: 16px;
   padding: 1.5rem 2.5rem;
   position: relative;
+  box-shadow: 6px 6px 0px 0px #1a3b7e1a;
+  overflow: hidden;
 }
 .brands-card-icon {
   width: 30px;
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 16px;
 }
 
 /* Why Zoho division */
@@ -577,7 +579,7 @@ body {
 
 .bluebutton {
   background: #0069ec;
-  padding: 20px 40px;
+  padding: 12px 18px;
   border: none;
   border-radius: 8px;
   font-size: 18px;
@@ -1055,7 +1057,7 @@ body {
   }
 
   .navlogo {
-    height: 20px;
+    width: 130px;
   }
 
   .bluebutton {
@@ -1072,9 +1074,10 @@ body {
     font-size: 14px;
   }
 
-  .blueheadingbig {
+  .brand-card .blueheadingbig {
     font-size: 34px;
     line-height: 40px;
+    text-align: left;
   }
 
   .form-container {
@@ -1090,6 +1093,29 @@ body {
     padding: 10px;
     gap: 20px;
     place-items: center;
+  }
+
+  .brand-card {
+    max-width: 170px;
+    text-align: left !important;
+  }
+
+  .brand-card .whiteparah{
+    text-align: left !important;
+  }
+
+  .brands-card-icon {
+    background-color: #1a3b7e;
+    top: 0px;
+    right: 0px;
+    padding: 8px;
+    border-top-left-radius: 2.2px;
+    border-top-right-radius: 12.36px;
+    border-bottom-left-radius: 12.36px;
+  }
+
+  .brand-card-image {
+    width: 26px;
   }
 
   .img-rounded {
@@ -1111,7 +1137,8 @@ body {
   .details-container .inner-brand-card {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     align-items: center;
     gap: 20px;
   }
