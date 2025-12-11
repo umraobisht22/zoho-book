@@ -44,6 +44,9 @@ body {
   width: 220px;
 }
 
+.pad40-1{
+  padding-top: 40px;
+}
 /* Header */
 .header-container {
   padding: 60px 0 0 0;
@@ -93,6 +96,14 @@ body {
   padding: 40px;
   width: 100%;
 }
+
+.form-heading{
+    color: #a1d5ff;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
 .header-input {
   background: rgba(38, 41, 43, 0.36);
@@ -884,6 +895,8 @@ body {
   .form-container {
     margin-top: 40px;
   }
+
+ 
 
   .whyImageContainer {
     margin-top: 40px;
